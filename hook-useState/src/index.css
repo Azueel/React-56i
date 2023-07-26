@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	display: flex;
+	text-align: center;
+	min-width: 320px;
+	min-height: 100vh;
+	background-color: #1a1a1a;
+	color: white;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 3.2em;
+	line-height: 1.1;
+}
+
+button {
+	border-radius: 1em;
+	font-weight: 500;
+
+	background-color: white;
+	cursor: pointer;
+	transition: border-color 0.25s;
+	padding: 30px;
+}
+
+button:hover {
+	border-color: #14152c;
+}
+button:focus,
+button:focus-visible {
+	outline: 4px auto -webkit-focus-ring-color;
+}
+
+h2 {
+	font-size: 34px;
+}

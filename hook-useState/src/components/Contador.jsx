@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { Fragment, useState } from 'react';
 
 export const Contador = () => {
 	const [contador, setContador] = useState(15);
@@ -29,7 +29,7 @@ export const Contador = () => {
 			{/* MOSTRAR EL MENSAJE */}
 			<h2>{msg}</h2>
 
-			<h2>{contador}</h2>
+			<h2 className="p-5">{contador}</h2>
 
 			<button onClick={restar}>-1</button>
 			<button onClick={resetear}>Reset</button>

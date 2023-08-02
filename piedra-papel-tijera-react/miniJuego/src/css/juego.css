@@ -1,0 +1,54 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.title {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.instruction {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.choices {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.choice {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 10px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	background-color: #f0f0f0;
+	cursor: pointer;
+}
+
+.choice:hover {
+	background-color: #d0d0d0;
+}
+
+.result {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.result-text {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.seleccion-text {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+}

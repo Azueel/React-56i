@@ -2,6 +2,7 @@ import React, { Fragment, useState } from 'react';
 
 export const Contador = () => {
 	const [contador, setContador] = useState(15);
+
 	const [msg, setMsg] = useState('');
 
 	const restar = () => {

@@ -45,6 +45,7 @@ export const RegisterScreen = () => {
 			) : (
 				''
 			)}
+
 			<Form onSubmit={validarFormulario}>
 				<Form.Group className="mt-2" controlId="nombre">
 					<Form.Label>Nombre</Form.Label>
